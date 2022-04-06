@@ -80,8 +80,9 @@
     </XLang>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Be.Stateless.BizTalk.Abstractions" Version="2.1.22046.40892" />
     <!-- https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package-msbuild#add-the-nugetbuildtaskspack-package -->
-    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.8.0">
+    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.11.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
